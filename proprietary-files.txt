@@ -346,7 +346,6 @@ etc/firmware/widevine.b03
 etc/firmware/widevine.mdt
 
 # Wlan
-vendor/bin/cnss-daemon
 etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
 etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_nofem.bin
 
