@@ -84,7 +84,7 @@ persist.loc.nlp_name=com.qualcomm.location
 ro.gps.agps_provider=1
 
 # Graphics
-debug.sf.hw=0
+debug.sf.hw=1
 debug.egl.hw=0
 debug.enable.sglscale=1
 debug.mdpcomp.logs=0
