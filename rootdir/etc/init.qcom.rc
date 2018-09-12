@@ -397,6 +397,13 @@ on property:vold.decrypt=trigger_restart_framework
 on property:persist.env.fastdorm.enabled=true
     setprop persist.radio.data_no_toggle 1
 
+service perfd /system/vendor/bin/perfd
+    class main
+    user root
+    group system
+    socket perfd seqpacket 0666 root system
+    #writepid /dev/cpuset/system-background/tasks
+
 service cnd /vendor/bin/cnd
     class main
     user system
