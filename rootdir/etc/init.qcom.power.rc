@@ -161,7 +161,7 @@ on enable-low-power
     write /proc/sys/vm/vfs_cache_pressure 60
     
     # Enable perfd
-    setprop sys.post_boot.parsed 1
+    # setprop sys.post_boot.parsed 1
 
 on charger
     # Disable thermal
